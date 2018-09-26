@@ -28,6 +28,7 @@ function PivotTableProvider(Private) {
     title: 'PivotTable', // the name shown in the visualize list
     icon: 'fa-table', // the class of the font awesome icon for this
     description: 'Add a PivotTable to your dashboards.', // description shown to the user
+    isBeta: true,
     requiresSearch: true, // linked to a search
     template: visTemplate, // Load the template of the visualization
     params: {
